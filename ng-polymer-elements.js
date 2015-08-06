@@ -5,11 +5,20 @@
     		mmDropdown: {
     			ngModel: {
     				primitive: 'value'
+    			},
+    			ngChange: {
+    				event: 'changed'
+    			},
+    			ngOptions: {
+    				primitive: 'value'
     			}
     		},
     		mmInput: {
     			ngModel: {
     				primitive: 'value'
+    			},
+    			ngChange: {
+    				event: 'changed'
     			}
     		}
     	})
@@ -25,7 +34,7 @@
 
     	    var inputMappings = {
     	        ngModel: {
-    	            primitive: 'value'
+    	          primitive: 'value'
     	        },
     	        ngDisabled: {
     	        	primitive: 'disabled'
