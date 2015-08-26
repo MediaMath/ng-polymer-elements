@@ -31,7 +31,7 @@
 
     	    var inputMappings = {
     	        ngModel: {
-    	            primitive: 'value'
+    	          primitive: 'value'
     	        },
     	        ngDisabled: {
     	        	primitive: 'disabled'
