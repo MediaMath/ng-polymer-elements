@@ -5,11 +5,17 @@
     		mmDropdown: {
     			ngModel: {
     				primitive: 'value'
+    			},
+    			ngChange: {
+    				event: 'changed'
     			}
     		},
     		mmInput: {
     			ngModel: {
     				primitive: 'value'
+    			},
+    			ngChange: {
+    				event: 'changed'
     			}
     		}
     	})
