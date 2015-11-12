@@ -17,6 +17,11 @@
     			ngChange: {
     				event: 'changed'
     			}
+    		},
+    		mmButton: {
+    			ngClick: {
+    				event: 'changed'
+    			}
     		}
     	})
     	.config(['$compileProvider', '$injector', function($compileProvider, $injector) {
